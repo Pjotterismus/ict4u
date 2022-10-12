@@ -50,7 +50,7 @@ body {
 
 
 #jumping:hover {
-                border: 1px solid; color: #0000fe;
+                border: 2px solid; color: #0000fe;
 }
 
 #jumpingman {position: relative;
@@ -60,17 +60,17 @@ body {
 
 #mandala { 
           width: 305px;
-          height: 275px;
+          height: 270px;
 }
 
 #mandaladiv { position: relative;
               left: 967px;
-              top: -9px;
+              top: -3px;
 
 
 }
 
-#mandala:hover { border: 1px solid; color: #ffff01;
+#mandala:hover { border: 2px solid; color: #ffff01;
 
 }
 
@@ -84,7 +84,7 @@ body {
           top: 0px;
 }
 
-#smoking:hover {border: 1px solid; color: #fe0000;
+#smoking:hover {border: 2px solid; color: #fe0000;
 
 }
 
