@@ -1,0 +1,94 @@
+
+#mySidenav a {
+  position: absolute; 
+  left: -90px; 
+  transition: 0.3s; 
+  padding: 15px; 
+  width: 110px; 
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white; 
+  border-radius: 0 7px 7px 0; 
+  
+}
+
+#mySidenav a:hover {
+  left: 0; 
+}
+
+
+#about {
+  top: 20px;
+  background-color: #811c9a;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3; 
+  
+}
+
+#projects {
+  top: 160px;
+  background-color: #f44336; 
+}
+
+#contact {
+  top: 225px;
+  background-color: #555 
+}
+
+body {
+  background-image: url("wp2037086.jpg");
+}
+
+#jumping {
+          padding: 3px; 
+          width: 370px; 
+          height: 318px;
+}
+
+
+#jumping:hover {
+                border: 1px solid; color: #0000fe;
+}
+
+#jumpingman {position: relative;
+             left: 250px;
+             top: -11px;
+}
+
+#mandala { 
+          width: 305px;
+          height: 275px;
+}
+
+#mandaladiv { position: relative;
+              left: 967px;
+              top: -9px;
+
+
+}
+
+#mandala:hover { border: 1px solid; color: #ffff01;
+
+}
+
+#smokingwoman {width: 305px; 
+              height: 265px;}
+
+
+#smoking {
+          position:absolute;
+          left: 650px;
+          top: 0px;
+}
+
+#smoking:hover {border: 1px solid; color: #fe0000;
+
+}
+
+#insta { width: 25px;
+        height: 25px;
+
+}
