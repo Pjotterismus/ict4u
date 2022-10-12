@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Startpage.css">
+  <link rel="stylesheet" href="carousel.css">
   <title>Document</title>
 </head>
 <body>
@@ -38,6 +39,66 @@
     <a target="_self" href="smokingwoman.html">
     <img id="smokingwoman"src="smokingwoman3.jpg" alt="">
     </a>
+    </div>
 
+    <div class="slideshow-container">
+
+      <div class="mySlides">
+        <q>If the universal is the essential, then it is the basis of all life and art. Recognizing and uniting with the universal therefore gives us the greatest aesthetic satisfaction, the greatest emotion of beauty.</q>
+        <p class="author">- Piet Mondriaan-</p>
+      </div>
+      
+      <div class="mySlides">
+        <q>The rhythm of relations of color and size makes the absolute appear in the relativity of time and space.</q>
+        <p class="author">- Piet Mondriaan -</p>
+      </div>
+      
+      <div class="mySlides">
+        <q>I do not know how I shall develop, but for the present, I am continuing to work within ordinary, generally known terrain, different only because of a deep substratum, which leads those who are receptive to sense the finer regions.</q>
+        <p class="author">- Piet Mondriaan -</p>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+
+
+    
   </body>
 </html>

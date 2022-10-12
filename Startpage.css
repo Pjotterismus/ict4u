@@ -4,7 +4,7 @@
   left: -90px; 
   transition: 0.3s; 
   padding: 15px; 
-  width: 110px; 
+  width: 120px; 
   text-decoration: none; 
   font-size: 20px; 
   color: white; 
@@ -24,17 +24,17 @@
 
 #blog {
   top: 80px;
-  background-color: #2196F3; 
+  background-color: #0000fe; 
   
 }
 
 #projects {
-  top: 160px;
-  background-color: #f44336; 
+  top: 210px;
+  background-color: #fe0000; 
 }
 
 #contact {
-  top: 225px;
+  top: 300px;
   background-color: #555 
 }
 
@@ -53,9 +53,9 @@ body {
                 border: 2px solid; color: #0000fe;
 }
 
-#jumpingman {position: relative;
-             left: 250px;
-             top: -11px;
+#jumpingman {position: absolute;
+             left: 265px;
+             top: -2px;
 }
 
 #mandala { 
@@ -63,9 +63,9 @@ body {
           height: 270px;
 }
 
-#mandaladiv { position: relative;
-              left: 967px;
-              top: -3px;
+#mandaladiv { position: absolute;
+              left: 978px;
+              top: 334px;
 
 
 }
