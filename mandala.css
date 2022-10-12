@@ -25,7 +25,7 @@ p {text-align: center;
   left: -90px; 
   transition: 0.3s; 
   padding: 15px; 
-  width: 100px; 
+  width: 110px; 
   text-decoration: none; 
   font-size: 20px; 
   color: white; 
@@ -54,7 +54,13 @@ p {text-align: center;
   background-color: #f44336; 
 }
 
+#insta { width: 25px;
+  height: 25px;
+
+}
+
 #contact {
-  top: 200px;
+  top: 207px;
   background-color: #555 
 }
+
