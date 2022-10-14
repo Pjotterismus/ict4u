@@ -4,21 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="randomnumber2.css">
+  <link rel="stylesheet" href="algemeen.css">
   <title>Document</title>
 </head>
 <body>
   <div>
     <button class="home">
-    <a href="oeftim.html">Home</a>
+    <a href="oeftim.html">Back to select</a>
     </button>
     </div>
-
+  
+    <button class="generate"
+    onclick="myfunction()">
+    Click to generate 6 random numbers
+    </button>
   <p id="demo"></p>
 
+  
+  
+  
+  
   <script>
 
-var arr = []
+function myfunction() {var arr = []
 
 while(arr.length < 6){
     var r = Math.floor(Math.random() * 42) + 1;
@@ -31,7 +39,7 @@ arr[2] + "<br>" +
 arr[3] + "<br>" +
 arr[4] + "<br>" +
 arr[5]
-
+}
 
 
 
