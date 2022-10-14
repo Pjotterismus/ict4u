@@ -22,19 +22,24 @@
 
 #tek {
   position: relative;
-  left: 210px;
+  left: 270px;
 }
 
 #tek2 {
   position: relative;
-  left: 210px;
+  left: 270px;
 }
 
 
-#tekst { position:fixed;
-        left: 20px;
-        top: 70px;
+#tekst { border:solid;
+        border-color: rgb(20, 20, 135);
+        border-radius: 7px;
+        background-color: rgb(20, 20, 135) ;
+        position:absolute;
+        left: 60px;
+        top: 78px;
         color: aliceblue;
+        padding: 0px 10px 0px 10px;
 
 }
 
@@ -43,7 +48,7 @@
 }
 
 #projects {
-  top: 160px;
+  top: 176px;
   background-color: #fe0000; 
 }
 
