@@ -1,12 +1,12 @@
 
 #mySidenav a {
   position: absolute; 
-  left: -90px; 
+  left: -75px; 
   transition: 0.3s; 
   padding: 15px; 
-  width: 120px; 
+  width: 131px; 
   text-decoration: none; 
-  font-size: 20px; 
+  font-size: 15px; 
   color: white; 
   border-radius: 0 7px 7px 0; 
   
@@ -23,18 +23,18 @@
 }
 
 #blog {
-  top: 80px;
+  top: 70px;
   background-color: #0000fe; 
   
 }
 
 #projects {
-  top: 210px;
+  top: 140px;
   background-color: #fe0000; 
 }
 
 #contact {
-  top: 300px;
+  top: 203px;
   background-color: #555 
 }
 
