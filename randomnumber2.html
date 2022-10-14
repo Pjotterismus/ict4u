@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="randomnumber2.css">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <button class="home">
+    <a href="oeftim.html">Home</a>
+    </button>
+    </div>
+
+  <p id="demo"></p>
+
+  <script>
+
+var arr = []
+
+while(arr.length < 6){
+    var r = Math.floor(Math.random() * 42) + 1;
+    if(arr.indexOf(r) === -1) arr.push(r);
+}
+document.getElementById("demo").innerHTML =
+arr[0] + "<br>" +
+arr[1] + "<br>" +
+arr[2] + "<br>" +
+arr[3] + "<br>" +
+arr[4] + "<br>" +
+arr[5]
+
+
+
+
+
+
+
+  </script>
+  
+</body>
+</html>
