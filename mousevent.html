@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mousevent.css">
+  <link rel="stylesheet" href="algemeen.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div>
+    <button class="home">
+    <a href="oeftim.html">Back to select</a>
+    </button>
+    </div>
+
+  <p>Mouse Event</p>
+
+  
+
+  
+  <div id="demo"></div>
+  <div id="demo2"></div>
+  
+  
+  
+  <script>
+    var x = ""
+    var y = "<br>De muis beweegt uit het vierkant"
+    
+    document.getElementById("demo").addEventListener("mouseover", mouseOver);
+    document.getElementById("demo").addEventListener("mouseout", mouseOut);
+    
+    
+    function mouseOver() {
+      document.getElementById("demo").style.backgroundColor = "red";
+      document.getElementById("demo2").innerHTML = x;
+    }
+    
+    function mouseOut() {
+      document.getElementById("demo").style.backgroundColor = "white";
+      document.getElementById("demo2").innerHTML = y;
+    }
+    
+
+    
+    
+    var clicks = 0;
+    
+  
+      demo.addEventListener('click', function() {
+      clicks +=1
+      document.getElementById("demo").innerHTML += clicks;
+      }    
+    )
+
+    
+    
+    </script>
+    
+    
+  
+
+  
+    
+
+
+
+
+
+</body>
+</html>
