@@ -13,7 +13,6 @@ function init() {
     canvas.onpointerup = stopDrawing;
     canvas.onpointerout = stopDrawing;
     document.querySelector(".clear").onclick = clearCanvas;
-    document.querySelector(".save").onclick = saveCanvas;
 }
 
 function recordPointerLocation(e) {
@@ -100,7 +99,6 @@ function clearCanvas() {
 function getColor() {
     return document.querySelector(".color").value;
 }
-
 
 function saveCanvas () {
 
